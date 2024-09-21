@@ -1,6 +1,12 @@
 # Langchain Simple RAG Project
 
-This project demonstrates a basic Retrieval-Augmented Generation (RAG) system that loads documents from text files, websites, and PDF files. The implementation can be found in [rag/simplerag.ipynb](./rag/simplerag.ipynb) and follows the steps outlined below:
+This project demonstrates a basic Retrieval-Augmented Generation (RAG) system that loads documents from text files, websites, and PDF files. 
+
+View Live Site [here](https://langchain-simple-rag.streamlit.app/)
+
+![live](./screenshots/rag.JPG)
+
+The implementation can be found in [rag/simplerag.ipynb](./rag/simplerag.ipynb) and follows the steps outlined below:
 
 ## Document Loading
 - **Text Files**: Loaded using `TextLoader` from `langchain_community.document_loaders`, with an example file located at [rag/robotics.txt](./rag/robotics.txt).  
