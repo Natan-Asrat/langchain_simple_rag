@@ -8,3 +8,4 @@ bs4==0.0.2
 transformers==4.44.2
 torch==2.4.1
 chromadb==0.5.7
+protobuf==5.28.2
