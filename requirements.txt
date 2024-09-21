@@ -10,3 +10,4 @@ torch==2.4.1
 chromadb==0.5.7
 opentelemetry-api==1.27.0
 opentelemetry-sdk==1.27.0
+protobuf==5.28.2
