@@ -45,6 +45,7 @@ This project demonstrates a basic Retrieval-Augmented Generation (RAG) system th
 # Libraries
 - Langchain
 - Langchain Groq
+- Streamlit
 - Python-Dotenv
 - Langchain
 - PyPDF
