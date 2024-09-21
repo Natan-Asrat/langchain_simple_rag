@@ -1,0 +1,47 @@
+As more and more robots are designed for specific tasks, this method of classification becomes more relevant. For example, many robots are designed for assembly work, which may not be readily adaptable for other applications. They are termed "assembly robots". For seam welding, some suppliers provide complete welding systems with the robot i.e. the welding equipment along with other material handling facilities like turntables, etc. as an integrated unit. Such an integrated robotic system is called a "welding robot" even though its discrete manipulator unit could be adapted to a variety of tasks. Some robots are specifically designed for heavy load manipulation, and are labeled as "heavy-duty robots".[4]
+
+Current and potential applications include:
+
+Manufacturing. Robots have been increasingly used in manufacturing since the 1960s. According to the Robotic Industries Association US data, in 2016 the automotive industry was the main customer of industrial robots with 52% of total sales.[5] In the auto industry, they can amount for more than half of the "labor". There are even "lights off" factories such as an IBM keyboard manufacturing factory in Texas that was fully automated as early as 2003.[6]
+Autonomous transport including airplane autopilot and self-driving cars
+Domestic robots including robotic vacuum cleaners, robotic lawn mowers, dishwasher loading[7] and flatbread baking.[8]
+Construction robots. Construction robots can be separated into three types: traditional robots, robotic arm, and robotic exoskeleton.[9]
+Automated mining.
+Space exploration, including Mars rovers.
+Energy applications including cleanup of nuclear contaminated areas[a]; and cleaning solar panel arrays.
+Medical robots and Robot-assisted surgery designed and used in clinics.[11]
+Agricultural robots.[12] The use of robots in agriculture is closely linked to the concept of AI-assisted precision agriculture and drone usage.[13]
+Food processing. Commercial examples of kitchen automation are Flippy (burgers), Zume Pizza (pizza), Cafe X (coffee), Makr Shakr (cocktails), Frobot (frozen yogurts), Sally (salads),[14] salad or food bowl robots manufactured by Dexai (a Draper Laboratory spinoff, operating on military bases), and integrated food bowl assembly systems manufactured by Spyce Kitchen (acquired by Sweetgreen) and Silicon Valley startup Hyphen.[15] Other examples may include manufacturing technologies based on 3D Food Printing.
+Military robots.
+Robot sports for entertainment and education, including Robot combat, Autonomous racing, drone racing, and FIRST Robotics.
+Mechanical robotics areas
+Power source
+Further information: Power supply and Energy storage
+
+The InSight lander with solar panels deployed in a cleanroom
+At present, mostly (lead–acid) batteries are used as a power source. Many different types of batteries can be used as a power source for robots. They range from lead–acid batteries, which are safe and have relatively long shelf lives but are rather heavy compared to silver–cadmium batteries which are much smaller in volume and are currently much more expensive. Designing a battery-powered robot needs to take into account factors such as safety, cycle lifetime, and weight. Generators, often some type of internal combustion engine, can also be used. However, such designs are often mechanically complex and need fuel, require heat dissipation, and are relatively heavy. A tether connecting the robot to a power supply would remove the power supply from the robot entirely. This has the advantage of saving weight and space by moving all power generation and storage components elsewhere. However, this design does come with the drawback of constantly having a cable connected to the robot, which can be difficult to manage.[16] Potential power sources could be:
+
+pneumatic (compressed gases)
+Solar power (using the sun's energy and converting it into electrical power)
+hydraulics (liquids)
+flywheel energy storage
+organic garbage (through anaerobic digestion)
+nuclear
+Actuation
+Main article: Actuator
+
+A robotic leg powered by air muscles
+Actuators are the "muscles" of a robot, the parts which convert stored energy into movement.[17] By far the most popular actuators are electric motors that rotate a wheel or gear, and linear actuators that control industrial robots in factories. There are some recent advances in alternative types of actuators, powered by electricity, chemicals, or compressed air.
+
+Electric motors
+Main article: Electric motor
+The vast majority of robots use electric motors, often brushed and brushless DC motors in portable robots or AC motors in industrial robots and CNC machines. These motors are often preferred in systems with lighter loads, and where the predominant form of motion is rotational.
+
+Linear actuators
+Main article: Linear actuator
+Various types of linear actuators move in and out instead of by spinning, and often have quicker direction changes, particularly when very large forces are needed such as with industrial robotics. They are typically powered by compressed and oxidized air (pneumatic actuator) or an oil (hydraulic actuator) Linear actuators can also be powered by electricity which usually consists of a motor and a leadscrew. Another common type is a mechanical linear actuator such as a rack and pinion on a car.
+
+Series elastic actuators
+Series elastic actuation (SEA) relies on the idea of introducing intentional elasticity between the motor actuator and the load for robust force control. Due to the resultant lower reflected inertia, series elastic actuation improves safety when a robot interacts with the environment (e.g., humans or workpieces) or during collisions.[18] Furthermore, it also provides energy efficiency and shock absorption (mechanical filtering) while reducing excessive wear on the transmission and other mechanical components. This approach has successfully been employed in various robots, particularly advanced manufacturing robots[19] and walking humanoid robots.[20][21]
+
+The controller design of a series elastic actuator is most often performed within the passivity framework as it ensures the safety of interaction with unstructured environments.[22] Despite its remarkable stability and robustness, this framework suffers from the stringent limitations imposed on the controller which may trade-off performance. The reader is referred to the following survey which summarizes the common controller architectures for SEA along with the corresponding sufficient passivity conditions.[23] One recent study has derived the necessary and sufficient passivity conditions for one of the most common impedance control architectures, namely velocity-sourced SEA.[24] This work is of particular importance as it drives the non-conservative passivity bounds in an SEA scheme for the first time which allows a larger selection of control gains.
